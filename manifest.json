@@ -1,0 +1,15 @@
+{
+  "type": "micro_wake_word.model",
+  "version": "2024.6.0",
+  "wake_word": "hey nukem",
+  "model": "model.tflite",
+  "micro": {
+    "sample_rate": 16000,
+    "average_window_duration_ms": 1000,
+    "detection_threshold": 0.7,
+    "minimum_count": 1,
+    "suppression_ms": 1500,
+    "minimum_time_between_samples_ms": 30
+  },
+  "author": "Midnight Moon"
+}
