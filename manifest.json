@@ -2,8 +2,9 @@
   "type": "micro",
   "version": 2,
   "wake_word": "okay nukem",
-  "author": "Your Name",
+  "author": "CasketPizza",
   "model": "model.tflite",
+  "trained_languages": ["en"],
   "micro": {
     "probability_cutoff": 0.7,
     "sliding_window_size": 5,
